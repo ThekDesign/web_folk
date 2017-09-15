@@ -1,0 +1,185 @@
+$height-page1: 100%;
+$width-page1: 100%;
+$title-font-color: grey;
+
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+.navbar-center {
+  display: inline;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse-center {
+  text-align: center;
+}
+
+.firstpage {
+	height: $height-page1;
+	width: $width-page1;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.firstpage_img {
+    background-image: url(images/mountain_3.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+	width: $width-page1;
+	height: $height-page1;
+	padding-bottom: 20%;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.text-center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title-text {
+	margin-top: 35%;
+	h4 {
+		font-size: 15vmin;
+		color: $title-font-color;
+	}
+	h5 {
+		font-size: 10vmin;
+		color: $title-font-color;
+		padding-bottom: 5%;
+	}
+	h6 {
+		font-size: 5vmin;
+		color: $title-font-color;
+	}
+	p {
+		font-size: 10vmin;
+		color: $title-font-color;
+		line-height: 1vmin;
+	}
+	.title-spcial {
+		position: absolute;
+		margin: auto;
+		left: 33%;
+		right: 33%;
+		bottom: 0;
+		font-size: 5vmin;
+		background-color: #F50057;
+		padding: 2% 0% 2% 0%;
+	}
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+
+	.col-no {
+	    margin: 0;
+		padding: 0;
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+	}
+}
+
+.photowall {
+	margin-bottom: 2%;
+}
+
+.designer-spcial {
+	margin-top: 2%;
+}
+
+.designer-text-spcial {
+    font-size: 3vmin;
+	color: white;
+	background-color: #F50057;
+	padding: 2% 0% 2% 0%;
+}
+
+.designer_wall {
+
+	.text-m-red {
+	color: red;
+	font-size: 4vmin;
+	margin: 3% 0 3% 0;
+    }
+
+    .text-s-red {
+	color: red;
+	font-size: 6vmin;
+	margin: 1% 0 1% 0;
+    }
+	.row {
+		.col {
+		  img {
+		width: 80%;
+		height: auto;
+	       }
+		}
+	}
+
+}
+
+.btn-dark {
+	margin: 3% 0 3% 0;
+	padding: 2% 10% 2% 10%;
+}
+
+.w-50 {
+	width: 50%;
+}
+.pd-1 {
+	padding: 10% 3% 0 12%;
+}
+.pd-2 {
+	padding: 0 3% 50% 12%;
+}
+.pd-3 {
+	padding: 50% 12% 0 3%;
+}
+.pd-4 {
+	padding: 0 12% 10% 3%;
+}
+.pd-10 {
+	padding: 5% 3% 5% 12%;
+}
+
+.text-bigdot {
+	text-align: center;
+	p {
+		font-size: 10vmin;
+	}
+}
+
+.background-color-dark {
+	background-color: black;
+	h4 {
+		font-size: 6vmin;
+		color: white;
+	}
+	p {
+		font-size: 4vmin;
+		color: white;
+	}
+}
+
+.footer_bottom {
+	background-color: gainsboro;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	p {
+		padding-top: 2%;
+		font-size: 1vmin;
+	}
+}
